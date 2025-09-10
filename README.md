@@ -14,7 +14,7 @@ This includes the assignment for web automation of the sauce demo application us
 
 ## Key Features:
 
-- **Unique Page Object Model Design Pattern**: Our Page Object Model (POM) design stands apart from traditional POMs. It's a unique approach that significantly reduces complexity and accelerates coding, making it easier and faster to write scripts compared to traditional POMs. This means less time spent on setup and more time spent on creating effective tests. [Discover how our approach differs with the traditional POM](docs/POMComparision.md).
+- **Unique Page Object Model Design Pattern**: Our Page Object Model (POM) design stands apart from traditional POMs. It's a unique approach that significantly reduces complexity and accelerates coding, making it easier and faster to write scripts compared to traditional POMs. This means less time spent on setup and more time spent on creating effective tests.
 
 - **Ease of Use**: Designed to be intuitive and user-friendly, making it an excellent choice for beginners to understand and write scripts. This means less time spent on learning the tool and more time spent on creating effective tests.
 
@@ -24,15 +24,6 @@ This includes the assignment for web automation of the sauce demo application us
 
 - **Customizable**: Easily adaptable to meet individual project needs, fitting seamlessly into any project, regardless of its specific requirements or constraints.
 
-## Table of Contents
-
-- [**Getting Started**](#getting-started)
-  - [Tools & Frameworks](#tools--frameworks)
-  - [Prerequisites](docs/Installation.md)
-  - [Installation](docs/Installation.md#installation)
-  - [Project Update Guide](docs/Installation.md#project-update-guide)
--  [**Project Structure**](docs/ProjectStructure.md)
-
 ## Getting Started
 
 ### Tools & Frameworks
@@ -41,29 +32,21 @@ This includes the assignment for web automation of the sauce demo application us
 - **[Playwright Test](https://playwright.dev/docs/test-configuration)**: A modern end-to-end testing framework, facilitating [test creation](https://playwright.dev/docs/api/class-test), [execution](https://playwright.dev/docs/running-tests), [fixture management](https://playwright.dev/docs/test-fixtures), and [report generation](https://playwright.dev/docs/test-reporters).
 - **[Playwright Assertions](https://playwright.dev/docs/assertions)**: Provides robust assertion capabilities for validating test outcomes.
 
-### Prerequisites
-
-Before you begin, there are some essential requirements you must meet. Please refer to the [Prerequisites section](docs/Installation.md) for detailed information on the necessary software and tools needed to run this project.
-
 ### Installation
 
-Get started with the project by following the step-by-step installation guide. Please refer to the [Installation section](docs/Installation.md#installation) for complete instructions on setting up the project on your local machine.
-
-### Project Update Guide
-
-Keeping your project up to date is crucial. Please refer to the [Project Update Guide section](docs/Installation.md#project-update-guide) for guidelines on how to update your project to the latest version.
+Get started with the project by following the step-by-step installation guide. Please refer to the installation guide on https://playwright.dev/docs/intro 
 
 
 ## Project Structure
 
 Understanding the project's architecture is key to working with the code.After setup, your project should look like:
 playwright-ts-tests/
-├── tests/
-│   └── example.spec.ts
-├── playwright.config.ts
-├── package.json
-├── package-lock.json
-└── node_modules/
+  ├── tests/
+  │   └── example.spec.ts
+  ├── playwright.config.ts
+  ├── package.json
+  ├── package-lock.json
+  └── node_modules/
 
 
 ### Writing Tests in a spec file
