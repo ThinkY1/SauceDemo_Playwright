@@ -72,3 +72,13 @@ Playwright Test offers several built-in reporters tailored for various requireme
 
 ```bash
 npx playwright show-report <path to the report>
+
+
+#NOTE
+When running automated tests, the HTML DOM content can differ from what is seen during manual interaction in a regular browser session. This discrepancy often causes certain elements to be non-locatable in automation, even though they are visible in manual inspection.
+
+Two approaches were considered:
+Matching locators in both manual and automation browser windows – ensuring that the selectors are stable and valid across both contexts.
+Matching the user agent in Chrome profiles – which can align the DOM, but reduces portability and makes the framework environment-dependent.
+
+To maintain portability and reliability, the chosen solution was to match and validate locators consistently across both manual and automation sessions, rather than relying on browser profile configurations.
