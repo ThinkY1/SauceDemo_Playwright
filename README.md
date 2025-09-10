@@ -72,9 +72,10 @@ Playwright Test offers several built-in reporters tailored for various requireme
 
 ```bash
 npx playwright show-report <path to the report>
+```
 
+### NOTE
 
-#NOTE
 When running automated tests, the HTML DOM content can differ from what is seen during manual interaction in a regular browser session. This discrepancy often causes certain elements to be non-locatable in automation, even though they are visible in manual inspection.
 
 Two approaches were considered:
