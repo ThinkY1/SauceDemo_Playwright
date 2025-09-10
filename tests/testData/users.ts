@@ -6,3 +6,7 @@ export const invalidLogins = [
   { username: 'standard_user', password: 'wrong_password', message: 'Epic sadface' },
   { username: 'locked_out_user', password: 'secret_sauce', message: 'Epic sadface: Sorry, this user has been locked out.' },
 ];
+
+export const customers = [
+  {firstName: 'Test', lastName:'Test', pincode:'41190'},
+];
